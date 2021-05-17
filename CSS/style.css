@@ -1,0 +1,88 @@
+
+@import 'utilities.css';
+
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --webkit-font-smotthing: antialiased;
+}
+header{
+    background: var(--dark);
+    
+
+}
+
+.container{
+    max-width:1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+header nav .left a{
+    color: var(--pure);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+
+header nav .left a:hover{
+
+    color: var(--primary);
+}
+
+header nav{
+    padding: 2rem 0;
+}
+
+header nav .logo{
+    margin-right: 3rem;
+}
+
+.second{
+   padding: 3rem 0; 
+
+}
+.second .left img{
+    width: 450px;
+}
+
+.second .right{
+    color: var(--pure);
+}
+
+.second .right h6{
+    font-size: 1.6rem;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+.second .right h1{
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    
+}
+.second .right h1 span{
+    color: var(--primary);
+}
+
+.second .right p{
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+
