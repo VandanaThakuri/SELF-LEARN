@@ -18,23 +18,36 @@
     outline: none;
     cursor: pointer;
     transition: all .3s ease;
+    text-decoration: none;
 }
 
 .btn-primary{
     background: var(--primary);
     color: black;
+    text-decoration: none;
+    
+}
+.btn-primary a{
+    text-decoration: none;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     background: transparent;
     border-color: var(--primary);
-    color: var(--primary);
+    color: var(--dark);
+    text-decoration: none;
+    
 }
 
 .btn-secondary{
     background: transparent;
     color: var(--primary);
     border-color: var(--primary);
+
+}
+.btn-secondary a{
+    text-decoration: none;
+    
 }
 
 .btn-secondary:hover{
